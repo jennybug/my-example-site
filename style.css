@@ -1,0 +1,26 @@
+.panel {
+    
+    padding: 0 18px;
+    background: #9a699a;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordian {
+    
+    background: #eee;
+    color: #b70707;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordian:hover {
+    
+    background: pink;
+}
